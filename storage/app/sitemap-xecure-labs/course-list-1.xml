@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/vendor/sitemap/styles/xml.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+	<url>
+	<loc>https://xecure-labs.com/course/metasploit-framework-desde-0-hasta-avanzado</loc>
+		<priority>0.8</priority>
+		<lastmod>2020-04-16T18:41:26+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+</urlset>
+

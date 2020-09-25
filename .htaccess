@@ -1,0 +1,27 @@
+
+# STRONG HTACCESS PROTECTION
+<Files ~ "^.*\.([Ee][Nn][Vv])">
+ order allow,deny
+ deny from all
+ satisfy all
+</Files>
+
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/$1 [L]
+
+RewriteCond %{HTTPS} off
+#Redirect 403 to 404 template
+ErrorDocument 403 /404.php
+ErrorDocument 500 /404.php
+ErrorDocument 405 /404.php
+
+
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI}
+
+#
+# The following lines prevent .htaccess and .htpasswd files from being
+# viewed by Web clients.
+#
+

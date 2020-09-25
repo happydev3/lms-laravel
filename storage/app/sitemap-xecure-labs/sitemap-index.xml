@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/vendor/sitemap/styles/sitemapindex.xsl" type="text/xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://xecure-labs.com/sitemap-xecure-labs/course-list-1.xml</loc>
+			<lastmod>2020-04-16T18:41:26+00:00</lastmod>
+		</sitemap>
+	<sitemap>
+		<loc>https://xecure-labs.com/sitemap-xecure-labs/blog-list-1.xml</loc>
+			<lastmod>2020-04-16T18:41:26+00:00</lastmod>
+		</sitemap>
+</sitemapindex>
